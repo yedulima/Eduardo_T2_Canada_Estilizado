@@ -14,13 +14,9 @@
     width: 8px;
 }
 
-::-webkit-scrollbar-track {
-    border-style: dashed;
-}
-
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
-    background-color: #FFF;
+    background-color: #1C1C1C;
 }
 
 /* NAV BAR SECTION */
@@ -40,11 +36,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 15%;
+    width: 11%;
 }
 
 .container-logo > p {
-    font-size: 0.813rem;
+    font-size: 0.89rem;
     padding-left: 11px;
     letter-spacing: 5px;
     font-weight: bold;
@@ -66,10 +62,11 @@
     border-radius: 15px;
     height: 30%;
     margin-left: 8rem;
+    font-weight: bold;
     color: #FFF;
     text-align: center;
     font-weight: 400;
-    font-size: 0.8125rem;
+    font-size: 0.95rem;
     transition: all .5s ease;
 }
 
@@ -116,7 +113,7 @@
 .container-text-title h1 {
     color: #FFB84D;
     letter-spacing: 40px;
-    font-size: 105px;
+    font-size: 8rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -126,6 +123,7 @@
 
 .container-text-subtitle p {
     font-size: 1.0125rem;
+    letter-spacing: 5px;
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
