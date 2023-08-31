@@ -5,7 +5,8 @@
 .container-mainpage {
     width: 100%;
     height: 100vh;
-    background-image: url(/img/background.png);
+    background-image: url("../../img/background.png");
+    background-color: #ccc;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
