@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
+/* ---Nav-bar configs--- */
+
+.container-navbar-selections a:nth-child(1) {
+    background-color: #FFF;
+    color: #000;
+}
+
+/* ---Main page--- */
 
 .container-mainpage {
     width: 100%;
     height: 100vh;
-    background-image: url("../../img/background.png");
+    background-image: url("../../img/Homebackground.png");
     background-color: #ccc;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,14 +26,13 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 95%;
     z-index: 50;
 }
 
 .container-mainpage-texts-title h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     color: #FFF;
-    letter-spacing: 35px;
     user-select: none;
 }
 
@@ -34,7 +41,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 42%;
+    width: 32%;
 }
 
 .container-mainpage-texts-text p {
@@ -44,4 +51,25 @@
     font-size: 1.1rem;
     letter-spacing: 2px;
     user-select: none;
+}
+
+/* ---Info section--- */
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 100vh;
+}
+
+.container-info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    background-color: #000;
 }
